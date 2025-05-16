@@ -1,0 +1,493 @@
+================================================================================
+MOJO WHATSAPP MESSAGE REPORT
+Generated: 2025-05-16 18:21:00
+Mode: DRY RUN (no messages actually sent)
+================================================================================
+
+MESSAGE SENT TO:
+  Orders with status: ACTIVE
+
+DETAILED MESSAGE LOG:
+--------------------------------------------------------------------------------
+Message 1:
+  Order ID: UK56013483
+  Recipient: UK Customer
+  Phone Number: whatsapp:447956013483
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191421
+--------------------------------------------------------------------------------
+Message 2:
+  Order ID: UK38760425
+  Recipient: UK Customer
+  Phone Number: whatsapp:447738760425
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191433
+--------------------------------------------------------------------------------
+Message 3:
+  Order ID: UK55235213
+  Recipient: UK Customer
+  Phone Number: whatsapp:447455235213
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191436
+--------------------------------------------------------------------------------
+Message 4:
+  Order ID: UK85591181
+  Recipient: UK Customer
+  Phone Number: whatsapp:447885591181
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191440
+--------------------------------------------------------------------------------
+Message 5:
+  Order ID: UK95901977
+  Recipient: UK Customer
+  Phone Number: whatsapp:447395901977
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191442
+--------------------------------------------------------------------------------
+Message 6:
+  Order ID: UK59193528
+  Recipient: UK Customer
+  Phone Number: whatsapp:447359193528
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191445
+--------------------------------------------------------------------------------
+Message 7:
+  Order ID: UK67381506
+  Recipient: UK Customer
+  Phone Number: whatsapp:447867381506
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191447
+--------------------------------------------------------------------------------
+Message 8:
+  Order ID: UK83259857
+  Recipient: UK Customer
+  Phone Number: whatsapp:447583259857
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191450
+--------------------------------------------------------------------------------
+Message 9:
+  Order ID: UK55064166
+  Recipient: UK Customer
+  Phone Number: whatsapp:447855064166
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191452
+--------------------------------------------------------------------------------
+Message 10:
+  Order ID: UK47385998
+  Recipient: UK Customer
+  Phone Number: whatsapp:447947385998
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191455
+--------------------------------------------------------------------------------
+Message 11:
+  Order ID: UK55168794
+  Recipient: UK Customer
+  Phone Number: whatsapp:447455168794
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191457
+--------------------------------------------------------------------------------
+Message 12:
+  Order ID: UK70341579
+  Recipient: UK Customer
+  Phone Number: whatsapp:447970341579
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191460
+--------------------------------------------------------------------------------
+Message 13:
+  Order ID: UK26289423
+  Recipient: UK Customer
+  Phone Number: whatsapp:447926289423
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191463
+--------------------------------------------------------------------------------
+Message 14:
+  Order ID: UK59702263
+  Recipient: UK Customer
+  Phone Number: whatsapp:447359702263
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191466
+--------------------------------------------------------------------------------
+Message 15:
+  Order ID: UK02312169
+  Recipient: UK Customer
+  Phone Number: whatsapp:447402312169
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191469
+--------------------------------------------------------------------------------
+Message 16:
+  Order ID: UK30099786
+  Recipient: UK Customer
+  Phone Number: whatsapp:447930099786
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191472
+--------------------------------------------------------------------------------
+Message 17:
+  Order ID: UK46499560
+  Recipient: UK Customer
+  Phone Number: whatsapp:447546499560
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191475
+--------------------------------------------------------------------------------
+Message 18:
+  Order ID: UK94725109
+  Recipient: UK Customer
+  Phone Number: whatsapp:447494725109
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191478
+--------------------------------------------------------------------------------
+Message 19:
+  Order ID: UK68544562
+  Recipient: UK Customer
+  Phone Number: whatsapp:447568544562
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191482
+--------------------------------------------------------------------------------
+Message 20:
+  Order ID: UK45153555
+  Recipient: UK Customer
+  Phone Number: whatsapp:4407745153555
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191486
+--------------------------------------------------------------------------------
+Message 21:
+  Order ID: UK85071348
+  Recipient: UK Customer
+  Phone Number: whatsapp:447485071348
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191489
+--------------------------------------------------------------------------------
+Message 22:
+  Order ID: UK70341759
+  Recipient: UK Customer
+  Phone Number: whatsapp:447970341759
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191491
+--------------------------------------------------------------------------------
+Message 23:
+  Order ID: UK30584437
+  Recipient: UK Customer
+  Phone Number: whatsapp:447930584437
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191494
+--------------------------------------------------------------------------------
+Message 24:
+  Order ID: UK29224455
+  Recipient: UK Customer
+  Phone Number: whatsapp:447429224455
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191496
+--------------------------------------------------------------------------------
+Message 25:
+  Order ID: UK15658969
+  Recipient: UK Customer
+  Phone Number: whatsapp:447415658969
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191498
+--------------------------------------------------------------------------------
+Message 26:
+  Order ID: UK75160160
+  Recipient: UK Customer
+  Phone Number: whatsapp:447575160160
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191501
+--------------------------------------------------------------------------------
+Message 27:
+  Order ID: UK10989168
+  Recipient: UK Customer
+  Phone Number: whatsapp:447510989168
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191503
+--------------------------------------------------------------------------------
+Message 28:
+  Order ID: UK49202500
+  Recipient: UK Customer
+  Phone Number: whatsapp:447549202500
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191506
+--------------------------------------------------------------------------------
+Message 29:
+  Order ID: UK38417850
+  Recipient: UK Customer
+  Phone Number: whatsapp:447538417850
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191510
+--------------------------------------------------------------------------------
+Message 30:
+  Order ID: UK70345769
+  Recipient: UK Customer
+  Phone Number: whatsapp:447570345769
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191512
+--------------------------------------------------------------------------------
+Message 31:
+  Order ID: UK70602948
+  Recipient: UK Customer
+  Phone Number: whatsapp:447570602948
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191515
+--------------------------------------------------------------------------------
+Message 32:
+  Order ID: UK36468338
+  Recipient: UK Customer
+  Phone Number: whatsapp:447736468338
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191517
+--------------------------------------------------------------------------------
+Message 33:
+  Order ID: UK01733777
+  Recipient: UK Customer
+  Phone Number: whatsapp:447801733777
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191520
+--------------------------------------------------------------------------------
+Message 34:
+  Order ID: UK89805792
+  Recipient: UK Customer
+  Phone Number: whatsapp:447389805792
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191524
+--------------------------------------------------------------------------------
+Message 35:
+  Order ID: UK25541932
+  Recipient: UK Customer
+  Phone Number: whatsapp:447425541932
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191526
+--------------------------------------------------------------------------------
+Message 36:
+  Order ID: UK87184473
+  Recipient: UK Customer
+  Phone Number: whatsapp:447787184473
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191528
+--------------------------------------------------------------------------------
+Message 37:
+  Order ID: UK65354826
+  Recipient: UK Customer
+  Phone Number: whatsapp:4407865354826
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191531
+--------------------------------------------------------------------------------
+Message 38:
+  Order ID: UK68472585
+  Recipient: UK Customer
+  Phone Number: whatsapp:447568472585
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191533
+--------------------------------------------------------------------------------
+Message 39:
+  Order ID: UK11799912
+  Recipient: UK Customer
+  Phone Number: whatsapp:447311799912
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191536
+--------------------------------------------------------------------------------
+Message 40:
+  Order ID: UK71958564
+  Recipient: UK Customer
+  Phone Number: whatsapp:447471958564
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191538
+--------------------------------------------------------------------------------
+Message 41:
+  Order ID: UK55323572
+  Recipient: UK Customer
+  Phone Number: whatsapp:447955323572
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191541
+--------------------------------------------------------------------------------
+Message 42:
+  Order ID: UK36224242
+  Recipient: UK Customer
+  Phone Number: whatsapp:447736224242
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191543
+--------------------------------------------------------------------------------
+Message 43:
+  Order ID: UK62387156
+  Recipient: UK Customer
+  Phone Number: whatsapp:447762387156
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191546
+--------------------------------------------------------------------------------
+Message 44:
+  Order ID: UK79492907
+  Recipient: UK Customer
+  Phone Number: whatsapp:4407979492907
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191549
+--------------------------------------------------------------------------------
+Message 45:
+  Order ID: UK06761814
+  Recipient: UK Customer
+  Phone Number: whatsapp:447806761814
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191551
+--------------------------------------------------------------------------------
+Message 46:
+  Order ID: UK42006804
+  Recipient: UK Customer
+  Phone Number: whatsapp:447742006804
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191554
+--------------------------------------------------------------------------------
+Message 47:
+  Order ID: UK45526603
+  Recipient: UK Customer
+  Phone Number: whatsapp:447845526603
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191556
+--------------------------------------------------------------------------------
+Message 48:
+  Order ID: UK57678969
+  Recipient: UK Customer
+  Phone Number: whatsapp:447557678969
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191558
+--------------------------------------------------------------------------------
+Message 49:
+  Order ID: UK64923655
+  Recipient: UK Customer
+  Phone Number: whatsapp:447564923655
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191560
+--------------------------------------------------------------------------------
+Message 50:
+  Order ID: UK55694619
+  Recipient: UK Customer
+  Phone Number: whatsapp:447555694619
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191563
+--------------------------------------------------------------------------------
+Message 51:
+  Order ID: UK96191456
+  Recipient: UK Customer
+  Phone Number: whatsapp:447896191456
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191565
+--------------------------------------------------------------------------------
+Message 52:
+  Order ID: UK59172540
+  Recipient: UK Customer
+  Phone Number: whatsapp:447759172540
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191568
+--------------------------------------------------------------------------------
+Message 53:
+  Order ID: UK23396652
+  Recipient: UK Customer
+  Phone Number: whatsapp:447723396652
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191571
+--------------------------------------------------------------------------------
+Message 54:
+  Order ID: UK97268963
+  Recipient: UK Customer
+  Phone Number: whatsapp:447897268963
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191574
+--------------------------------------------------------------------------------
+Message 55:
+  Order ID: UK01597397
+  Recipient: UK Customer
+  Phone Number: whatsapp:447801597397
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191578
+--------------------------------------------------------------------------------
+Message 56:
+  Order ID: UK24825744
+  Recipient: UK Customer
+  Phone Number: whatsapp:447824825744
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191581
+--------------------------------------------------------------------------------
+Message 57:
+  Order ID: UK47832404
+  Recipient: UK Customer
+  Phone Number: whatsapp:447747832404
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191584
+--------------------------------------------------------------------------------
+Message 58:
+  Order ID: UK99435524
+  Recipient: UK Customer
+  Phone Number: whatsapp:447399435524
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191587
+--------------------------------------------------------------------------------
+Message 59:
+  Order ID: UK32687129
+  Recipient: UK Customer
+  Phone Number: whatsapp:447732687129
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191590
+--------------------------------------------------------------------------------
+Message 60:
+  Order ID: UK03542109
+  Recipient: UK Customer
+  Phone Number: whatsapp:447503542109
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191593
+--------------------------------------------------------------------------------
+Message 61:
+  Order ID: UK89742924
+  Recipient: UK Customer
+  Phone Number: whatsapp:447889742924
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191595
+--------------------------------------------------------------------------------
+Message 62:
+  Order ID: UK98720935
+  Recipient: UK Customer
+  Phone Number: whatsapp:447398720935
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191598
+--------------------------------------------------------------------------------
+Message 63:
+  Order ID: UK51792356
+  Recipient: UK Customer
+  Phone Number: whatsapp:447751792356
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191600
+--------------------------------------------------------------------------------
+Message 64:
+  Order ID: UK22794486
+  Recipient: UK Customer
+  Phone Number: whatsapp:447722794486
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191603
+--------------------------------------------------------------------------------
+Message 65:
+  Order ID: UK95250147
+  Recipient: UK Customer
+  Phone Number: whatsapp:447595250147
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191606
+--------------------------------------------------------------------------------
+Message 66:
+  Order ID: UK98596188
+  Recipient: UK Customer
+  Phone Number: whatsapp:447398596188
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191608
+--------------------------------------------------------------------------------
+Message 67:
+  Order ID: UK92113014
+  Recipient: UK Customer
+  Phone Number: whatsapp:447492113014
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191611
+--------------------------------------------------------------------------------
+Message 68:
+  Order ID: UK84281751
+  Recipient: UK Customer
+  Phone Number: whatsapp:447484281751
+  Status: dry-run
+  Timestamp: 2025-05-16T18:21:00.191613
+--------------------------------------------------------------------------------
+
+SUMMARY:
+Total unique recipients: 68
+Successful: 68
+Failed: 0
+Time elapsed: 0.00 seconds

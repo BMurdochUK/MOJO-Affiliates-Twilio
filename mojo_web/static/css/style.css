@@ -1,0 +1,218 @@
+:root {
+  --mojo-navy: #272D45;
+  --mojo-red: #E60517;
+  --mojo-dark-red: #87000A;
+  --mojo-light: #f5f5f5;
+  --mojo-white: #ffffff;
+  --mojo-gray: #e0e0e0;
+  --mojo-dark-gray: #666666;
+}
+
+/* General styles */
+body {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--mojo-light);
+  color: var(--mojo-navy);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--mojo-navy);
+}
+
+a {
+  color: var(--mojo-red);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--mojo-dark-red);
+}
+
+/* Header */
+.navbar {
+  background-color: var(--mojo-navy);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--mojo-white);
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--mojo-gray);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: var(--mojo-red);
+  font-weight: 700;
+}
+
+/* Main content */
+.main-content {
+  min-height: calc(100vh - 140px);
+  padding: 30px 0;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: var(--mojo-navy);
+  color: var(--mojo-white);
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  padding: 15px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--mojo-red);
+  border-color: var(--mojo-red);
+  color: var(--mojo-white);
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 8px 20px;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--mojo-dark-red);
+  border-color: var(--mojo-dark-red);
+  box-shadow: 0 4px 8px rgba(230, 5, 23, 0.3);
+}
+
+.btn-secondary {
+  background-color: var(--mojo-navy);
+  border-color: var(--mojo-navy);
+  color: var(--mojo-white);
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 8px 20px;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: #353d5c;
+  border-color: #353d5c;
+}
+
+.btn-outline-primary {
+  border-color: var(--mojo-red);
+  color: var(--mojo-red);
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 8px 20px;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--mojo-red);
+  color: var(--mojo-white);
+}
+
+/* Dashboard stats */
+.stat-card {
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px 15px;
+  background-color: var(--mojo-white);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card .stat-value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--mojo-red);
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.stat-card .stat-label {
+  font-size: 1.1rem;
+  color: var(--mojo-navy);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Tables */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table thead th {
+  background-color: var(--mojo-navy);
+  color: var(--mojo-white);
+  border-bottom: none;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(230, 5, 23, 0.05);
+}
+
+/* Badges */
+.badge-primary {
+  background-color: var(--mojo-red);
+}
+
+.badge-success {
+  background-color: #28a745;
+}
+
+.badge-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.badge-danger {
+  background-color: var(--mojo-dark-red);
+}
+
+.badge-info {
+  background-color: var(--mojo-navy);
+}
+
+/* Footer */
+footer {
+  background-color: var(--mojo-navy);
+  color: var(--mojo-white);
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer a {
+  color: var(--mojo-red);
+}
+
+footer a:hover {
+  color: var(--mojo-dark-red);
+} 

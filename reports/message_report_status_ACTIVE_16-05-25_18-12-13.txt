@@ -1,0 +1,569 @@
+================================================================================
+MOJO WHATSAPP MESSAGE REPORT
+Generated: 2025-05-16 18:12:13
+Mode: LIVE RUN
+================================================================================
+
+MESSAGE SENT TO:
+  Orders with status: ACTIVE
+
+DETAILED MESSAGE LOG:
+--------------------------------------------------------------------------------
+Message 1:
+  Order ID: UK56013483
+  Recipient: UK Customer
+  Phone Number: whatsapp:447956013483
+  Status: queued
+  Message SID: MM73f6608587ec7846ac5eb30e05e628f9
+  Timestamp: 2025-05-16T18:10:39.121087
+--------------------------------------------------------------------------------
+Message 2:
+  Order ID: UK38760425
+  Recipient: UK Customer
+  Phone Number: whatsapp:447738760425
+  Status: queued
+  Message SID: MM640ef29fab8a7ac92a965b2511fe8543
+  Timestamp: 2025-05-16T18:10:40.508167
+--------------------------------------------------------------------------------
+Message 3:
+  Order ID: UK55235213
+  Recipient: UK Customer
+  Phone Number: whatsapp:447455235213
+  Status: queued
+  Message SID: MM8efd2b0e8872a87d103809e1bf8bf0d9
+  Timestamp: 2025-05-16T18:10:41.901693
+--------------------------------------------------------------------------------
+Message 4:
+  Order ID: UK85591181
+  Recipient: UK Customer
+  Phone Number: whatsapp:447885591181
+  Status: queued
+  Message SID: MM7f514c26ea6e83f3764c651a2bb97512
+  Timestamp: 2025-05-16T18:10:43.298372
+--------------------------------------------------------------------------------
+Message 5:
+  Order ID: UK95901977
+  Recipient: UK Customer
+  Phone Number: whatsapp:447395901977
+  Status: queued
+  Message SID: MMab5ef3271b9b2cb4f5d7db9b2d08317f
+  Timestamp: 2025-05-16T18:10:44.688487
+--------------------------------------------------------------------------------
+Message 6:
+  Order ID: UK59193528
+  Recipient: UK Customer
+  Phone Number: whatsapp:447359193528
+  Status: queued
+  Message SID: MMd64c7a3c8cbd2169116aa06669d498a0
+  Timestamp: 2025-05-16T18:10:46.082568
+--------------------------------------------------------------------------------
+Message 7:
+  Order ID: UK67381506
+  Recipient: UK Customer
+  Phone Number: whatsapp:447867381506
+  Status: queued
+  Message SID: MMbfba34a004b2cdc48b6a827e0f8b5fa8
+  Timestamp: 2025-05-16T18:10:47.473682
+--------------------------------------------------------------------------------
+Message 8:
+  Order ID: UK83259857
+  Recipient: UK Customer
+  Phone Number: whatsapp:447583259857
+  Status: queued
+  Message SID: MMecfa6523a6e28859a574552f3535e2ae
+  Timestamp: 2025-05-16T18:10:48.869817
+--------------------------------------------------------------------------------
+Message 9:
+  Order ID: UK55064166
+  Recipient: UK Customer
+  Phone Number: whatsapp:447855064166
+  Status: queued
+  Message SID: MM7d39049206723bcfb49b0ef0d14f9bb2
+  Timestamp: 2025-05-16T18:10:50.264850
+--------------------------------------------------------------------------------
+Message 10:
+  Order ID: UK47385998
+  Recipient: UK Customer
+  Phone Number: whatsapp:447947385998
+  Status: queued
+  Message SID: MM2b2a0701a973139269db0e18efe33df0
+  Timestamp: 2025-05-16T18:10:51.656805
+--------------------------------------------------------------------------------
+Message 11:
+  Order ID: UK55168794
+  Recipient: UK Customer
+  Phone Number: whatsapp:447455168794
+  Status: queued
+  Message SID: MM64c774b56e821694219186a89c22db2a
+  Timestamp: 2025-05-16T18:10:53.055444
+--------------------------------------------------------------------------------
+Message 12:
+  Order ID: UK70341579
+  Recipient: UK Customer
+  Phone Number: whatsapp:447970341579
+  Status: queued
+  Message SID: MM58bc9f6e053e26489b80745708574b94
+  Timestamp: 2025-05-16T18:10:54.440848
+--------------------------------------------------------------------------------
+Message 13:
+  Order ID: UK26289423
+  Recipient: UK Customer
+  Phone Number: whatsapp:447926289423
+  Status: queued
+  Message SID: MM8593f3deb7537d6429d69f48064a4b6e
+  Timestamp: 2025-05-16T18:10:55.826807
+--------------------------------------------------------------------------------
+Message 14:
+  Order ID: UK59702263
+  Recipient: UK Customer
+  Phone Number: whatsapp:447359702263
+  Status: queued
+  Message SID: MM03d6a1a6026ed61b385d2a4fc7328c36
+  Timestamp: 2025-05-16T18:10:57.211688
+--------------------------------------------------------------------------------
+Message 15:
+  Order ID: UK02312169
+  Recipient: UK Customer
+  Phone Number: whatsapp:447402312169
+  Status: queued
+  Message SID: MM9cab3673762b70895578ef4acee828d2
+  Timestamp: 2025-05-16T18:10:58.600639
+--------------------------------------------------------------------------------
+Message 16:
+  Order ID: UK30099786
+  Recipient: UK Customer
+  Phone Number: whatsapp:447930099786
+  Status: queued
+  Message SID: MM07c381c349fa9a109e6564aa193c9958
+  Timestamp: 2025-05-16T18:10:59.999269
+--------------------------------------------------------------------------------
+Message 17:
+  Order ID: UK46499560
+  Recipient: UK Customer
+  Phone Number: whatsapp:447546499560
+  Status: queued
+  Message SID: MM2beb012c00a96011132ac3ab9c787614
+  Timestamp: 2025-05-16T18:11:01.394276
+--------------------------------------------------------------------------------
+Message 18:
+  Order ID: UK94725109
+  Recipient: UK Customer
+  Phone Number: whatsapp:447494725109
+  Status: queued
+  Message SID: MM1672102919c75b61227eff548e25f4b8
+  Timestamp: 2025-05-16T18:11:02.790445
+--------------------------------------------------------------------------------
+Message 19:
+  Order ID: UK68544562
+  Recipient: UK Customer
+  Phone Number: whatsapp:447568544562
+  Status: queued
+  Message SID: MMbbf4e794e8d582709c22aa986431cd9d
+  Timestamp: 2025-05-16T18:11:04.173732
+--------------------------------------------------------------------------------
+Message 20:
+  Order ID: UK45153555
+  Recipient: UK Customer
+  Phone Number: whatsapp:4407745153555
+  Status: queued
+  Message SID: MM57890121d19206c59d754c05f46ecc48
+  Timestamp: 2025-05-16T18:11:05.562994
+--------------------------------------------------------------------------------
+Message 21:
+  Order ID: UK85071348
+  Recipient: UK Customer
+  Phone Number: whatsapp:447485071348
+  Status: queued
+  Message SID: MMe69bc26f6eb8091aab1751e1d6c39e84
+  Timestamp: 2025-05-16T18:11:06.949901
+--------------------------------------------------------------------------------
+Message 22:
+  Order ID: UK70341759
+  Recipient: UK Customer
+  Phone Number: whatsapp:447970341759
+  Status: queued
+  Message SID: MMeeae18a47d88e2d5c7d1cd63005b90a7
+  Timestamp: 2025-05-16T18:11:08.335957
+--------------------------------------------------------------------------------
+Message 23:
+  Order ID: UK30584437
+  Recipient: UK Customer
+  Phone Number: whatsapp:447930584437
+  Status: queued
+  Message SID: MMf6c7c73de0f6600fdace56d79549b6e0
+  Timestamp: 2025-05-16T18:11:09.723261
+--------------------------------------------------------------------------------
+Message 24:
+  Order ID: UK29224455
+  Recipient: UK Customer
+  Phone Number: whatsapp:447429224455
+  Status: queued
+  Message SID: MM456d0f4a0454b9700d05b6ad80088a83
+  Timestamp: 2025-05-16T18:11:11.114441
+--------------------------------------------------------------------------------
+Message 25:
+  Order ID: UK15658969
+  Recipient: UK Customer
+  Phone Number: whatsapp:447415658969
+  Status: queued
+  Message SID: MM70c10c0201ac5e1735fcf0c919a3b095
+  Timestamp: 2025-05-16T18:11:12.522823
+--------------------------------------------------------------------------------
+Message 26:
+  Order ID: UK75160160
+  Recipient: UK Customer
+  Phone Number: whatsapp:447575160160
+  Status: queued
+  Message SID: MM5a35b832177b37bea636df1d00d3fe95
+  Timestamp: 2025-05-16T18:11:13.907730
+--------------------------------------------------------------------------------
+Message 27:
+  Order ID: UK10989168
+  Recipient: UK Customer
+  Phone Number: whatsapp:447510989168
+  Status: queued
+  Message SID: MM6ed1ac114ab842f6b73f57572843d833
+  Timestamp: 2025-05-16T18:11:15.307455
+--------------------------------------------------------------------------------
+Message 28:
+  Order ID: UK49202500
+  Recipient: UK Customer
+  Phone Number: whatsapp:447549202500
+  Status: queued
+  Message SID: MMb5f3e8e908448f06629d0ea8b7efb2a6
+  Timestamp: 2025-05-16T18:11:16.706622
+--------------------------------------------------------------------------------
+Message 29:
+  Order ID: UK38417850
+  Recipient: UK Customer
+  Phone Number: whatsapp:447538417850
+  Status: queued
+  Message SID: MM1697a8636b0c3ace67ff45873283afd2
+  Timestamp: 2025-05-16T18:11:18.082058
+--------------------------------------------------------------------------------
+Message 30:
+  Order ID: UK70345769
+  Recipient: UK Customer
+  Phone Number: whatsapp:447570345769
+  Status: queued
+  Message SID: MM8244dd05ba8c442a4c23bc807d3a36fa
+  Timestamp: 2025-05-16T18:11:19.468915
+--------------------------------------------------------------------------------
+Message 31:
+  Order ID: UK70602948
+  Recipient: UK Customer
+  Phone Number: whatsapp:447570602948
+  Status: queued
+  Message SID: MMfa4986dd263df48ed34e991272156aee
+  Timestamp: 2025-05-16T18:11:20.853653
+--------------------------------------------------------------------------------
+Message 32:
+  Order ID: UK36468338
+  Recipient: UK Customer
+  Phone Number: whatsapp:447736468338
+  Status: queued
+  Message SID: MM74c9597dfa3628200e0f901db8e3be81
+  Timestamp: 2025-05-16T18:11:22.250728
+--------------------------------------------------------------------------------
+Message 33:
+  Order ID: UK01733777
+  Recipient: UK Customer
+  Phone Number: whatsapp:447801733777
+  Status: queued
+  Message SID: MM803ff217ba6e06b2f374369814e781a7
+  Timestamp: 2025-05-16T18:11:23.634490
+--------------------------------------------------------------------------------
+Message 34:
+  Order ID: UK89805792
+  Recipient: UK Customer
+  Phone Number: whatsapp:447389805792
+  Status: queued
+  Message SID: MMd80e08b85c979be733691baff064ac21
+  Timestamp: 2025-05-16T18:11:25.022550
+--------------------------------------------------------------------------------
+Message 35:
+  Order ID: UK25541932
+  Recipient: UK Customer
+  Phone Number: whatsapp:447425541932
+  Status: queued
+  Message SID: MMa28c3e9e170456c363a9868b77014d39
+  Timestamp: 2025-05-16T18:11:26.410679
+--------------------------------------------------------------------------------
+Message 36:
+  Order ID: UK87184473
+  Recipient: UK Customer
+  Phone Number: whatsapp:447787184473
+  Status: queued
+  Message SID: MMa35ebf913bcb7902ebd97e17f36920c7
+  Timestamp: 2025-05-16T18:11:27.792762
+--------------------------------------------------------------------------------
+Message 37:
+  Order ID: UK65354826
+  Recipient: UK Customer
+  Phone Number: whatsapp:4407865354826
+  Status: queued
+  Message SID: MMe3b6222396b6619469da24d9ecbd7274
+  Timestamp: 2025-05-16T18:11:29.183582
+--------------------------------------------------------------------------------
+Message 38:
+  Order ID: UK68472585
+  Recipient: UK Customer
+  Phone Number: whatsapp:447568472585
+  Status: queued
+  Message SID: MM965edb16c97918bfc6c6b15eb027fe64
+  Timestamp: 2025-05-16T18:11:30.579183
+--------------------------------------------------------------------------------
+Message 39:
+  Order ID: UK11799912
+  Recipient: UK Customer
+  Phone Number: whatsapp:447311799912
+  Status: queued
+  Message SID: MM43a42a60bb29eff237c64e41fd3ada06
+  Timestamp: 2025-05-16T18:11:31.975591
+--------------------------------------------------------------------------------
+Message 40:
+  Order ID: UK71958564
+  Recipient: UK Customer
+  Phone Number: whatsapp:447471958564
+  Status: queued
+  Message SID: MM8470fe72384de9e113681657cee7b83c
+  Timestamp: 2025-05-16T18:11:33.349853
+--------------------------------------------------------------------------------
+Message 41:
+  Order ID: UK55323572
+  Recipient: UK Customer
+  Phone Number: whatsapp:447955323572
+  Status: queued
+  Message SID: MM5c137962ea08fdfdcf469e7744d68742
+  Timestamp: 2025-05-16T18:11:34.739012
+--------------------------------------------------------------------------------
+Message 42:
+  Order ID: UK36224242
+  Recipient: UK Customer
+  Phone Number: whatsapp:447736224242
+  Status: queued
+  Message SID: MMf13912278e1cb57bcbb0bb268a94ef5b
+  Timestamp: 2025-05-16T18:11:36.126818
+--------------------------------------------------------------------------------
+Message 43:
+  Order ID: UK62387156
+  Recipient: UK Customer
+  Phone Number: whatsapp:447762387156
+  Status: queued
+  Message SID: MMe93deef9550367b15cda2abe11a62f45
+  Timestamp: 2025-05-16T18:11:37.535358
+--------------------------------------------------------------------------------
+Message 44:
+  Order ID: UK79492907
+  Recipient: UK Customer
+  Phone Number: whatsapp:4407979492907
+  Status: queued
+  Message SID: MM82bc062d02dd6be2a21be09f14bd4203
+  Timestamp: 2025-05-16T18:11:38.914252
+--------------------------------------------------------------------------------
+Message 45:
+  Order ID: UK06761814
+  Recipient: UK Customer
+  Phone Number: whatsapp:447806761814
+  Status: queued
+  Message SID: MMa620bd83b3d1fbb0388cb901dd3cd9a9
+  Timestamp: 2025-05-16T18:11:40.306639
+--------------------------------------------------------------------------------
+Message 46:
+  Order ID: UK42006804
+  Recipient: UK Customer
+  Phone Number: whatsapp:447742006804
+  Status: queued
+  Message SID: MM5abe6fad2276a2bc96a0f565c704ec4e
+  Timestamp: 2025-05-16T18:11:41.699288
+--------------------------------------------------------------------------------
+Message 47:
+  Order ID: UK45526603
+  Recipient: UK Customer
+  Phone Number: whatsapp:447845526603
+  Status: queued
+  Message SID: MMa3a58959499212acf0735a4dff9edac7
+  Timestamp: 2025-05-16T18:11:43.088711
+--------------------------------------------------------------------------------
+Message 48:
+  Order ID: UK57678969
+  Recipient: UK Customer
+  Phone Number: whatsapp:447557678969
+  Status: queued
+  Message SID: MM8cf42635ebc8ce9e6ac05f2da1defa5e
+  Timestamp: 2025-05-16T18:11:44.476328
+--------------------------------------------------------------------------------
+Message 49:
+  Order ID: UK64923655
+  Recipient: UK Customer
+  Phone Number: whatsapp:447564923655
+  Status: queued
+  Message SID: MMd6cb2ddaf4b11c46fedea3b3aebe9425
+  Timestamp: 2025-05-16T18:11:45.862344
+--------------------------------------------------------------------------------
+Message 50:
+  Order ID: UK55694619
+  Recipient: UK Customer
+  Phone Number: whatsapp:447555694619
+  Status: queued
+  Message SID: MM1be6650e6992958cc17fc1a47b037b21
+  Timestamp: 2025-05-16T18:11:47.241388
+--------------------------------------------------------------------------------
+Message 51:
+  Order ID: UK96191456
+  Recipient: UK Customer
+  Phone Number: whatsapp:447896191456
+  Status: queued
+  Message SID: MM50357dabb13406907c6f8020660506b8
+  Timestamp: 2025-05-16T18:11:48.632468
+--------------------------------------------------------------------------------
+Message 52:
+  Order ID: UK59172540
+  Recipient: UK Customer
+  Phone Number: whatsapp:447759172540
+  Status: queued
+  Message SID: MMbf942421f96a870f81f6ef62aad2ab4f
+  Timestamp: 2025-05-16T18:11:50.015615
+--------------------------------------------------------------------------------
+Message 53:
+  Order ID: UK23396652
+  Recipient: UK Customer
+  Phone Number: whatsapp:447723396652
+  Status: queued
+  Message SID: MMb2af351c6bc5adc700f2b0614e92b85f
+  Timestamp: 2025-05-16T18:11:51.412014
+--------------------------------------------------------------------------------
+Message 54:
+  Order ID: UK97268963
+  Recipient: UK Customer
+  Phone Number: whatsapp:447897268963
+  Status: queued
+  Message SID: MM76ff602275b92cef1c93a1995e47f8af
+  Timestamp: 2025-05-16T18:11:52.798780
+--------------------------------------------------------------------------------
+Message 55:
+  Order ID: UK01597397
+  Recipient: UK Customer
+  Phone Number: whatsapp:447801597397
+  Status: queued
+  Message SID: MM6ddaf325d7f2540bb41c04aa9038ffe1
+  Timestamp: 2025-05-16T18:11:54.190710
+--------------------------------------------------------------------------------
+Message 56:
+  Order ID: UK24825744
+  Recipient: UK Customer
+  Phone Number: whatsapp:447824825744
+  Status: queued
+  Message SID: MMa51e51dc3ec34d72f12d1b82dccb8c3b
+  Timestamp: 2025-05-16T18:11:55.575796
+--------------------------------------------------------------------------------
+Message 57:
+  Order ID: UK47832404
+  Recipient: UK Customer
+  Phone Number: whatsapp:447747832404
+  Status: queued
+  Message SID: MMadfa0293621632e82d76373680dbcaad
+  Timestamp: 2025-05-16T18:11:56.964105
+--------------------------------------------------------------------------------
+Message 58:
+  Order ID: UK99435524
+  Recipient: UK Customer
+  Phone Number: whatsapp:447399435524
+  Status: queued
+  Message SID: MM561337b8c9a22c8a02fd26813c7c7f59
+  Timestamp: 2025-05-16T18:11:58.346419
+--------------------------------------------------------------------------------
+Message 59:
+  Order ID: UK32687129
+  Recipient: UK Customer
+  Phone Number: whatsapp:447732687129
+  Status: queued
+  Message SID: MM0ac7838dfa1f2376a9f1a643e3524ab3
+  Timestamp: 2025-05-16T18:11:59.735328
+--------------------------------------------------------------------------------
+Message 60:
+  Order ID: UK03542109
+  Recipient: UK Customer
+  Phone Number: whatsapp:447503542109
+  Status: queued
+  Message SID: MM5cb90bdef9123b3d4a5a6e220d0af1a3
+  Timestamp: 2025-05-16T18:12:01.126852
+--------------------------------------------------------------------------------
+Message 61:
+  Order ID: UK89742924
+  Recipient: UK Customer
+  Phone Number: whatsapp:447889742924
+  Status: queued
+  Message SID: MMf814b1230495e1601eef42cb403eafb9
+  Timestamp: 2025-05-16T18:12:02.525404
+--------------------------------------------------------------------------------
+Message 62:
+  Order ID: UK98720935
+  Recipient: UK Customer
+  Phone Number: whatsapp:447398720935
+  Status: queued
+  Message SID: MMf7450646d056693458369e31e3d0f5b2
+  Timestamp: 2025-05-16T18:12:03.907281
+--------------------------------------------------------------------------------
+Message 63:
+  Order ID: UK51792356
+  Recipient: UK Customer
+  Phone Number: whatsapp:447751792356
+  Status: queued
+  Message SID: MM9991e3edbbb2b7220a65b4bf27341ebd
+  Timestamp: 2025-05-16T18:12:05.298605
+--------------------------------------------------------------------------------
+Message 64:
+  Order ID: UK22794486
+  Recipient: UK Customer
+  Phone Number: whatsapp:447722794486
+  Status: queued
+  Message SID: MM7422c82135655b03bc46d4a0c98ee67f
+  Timestamp: 2025-05-16T18:12:06.682711
+--------------------------------------------------------------------------------
+Message 65:
+  Order ID: UK95250147
+  Recipient: UK Customer
+  Phone Number: whatsapp:447595250147
+  Status: queued
+  Message SID: MMddf34e370f657ce6a8099127b600de2b
+  Timestamp: 2025-05-16T18:12:08.077411
+--------------------------------------------------------------------------------
+Message 66:
+  Order ID: UK98596188
+  Recipient: UK Customer
+  Phone Number: whatsapp:447398596188
+  Status: queued
+  Message SID: MM3ba028f703203239d0319ce58640d280
+  Timestamp: 2025-05-16T18:12:09.457996
+--------------------------------------------------------------------------------
+Message 67:
+  Order ID: UK92113014
+  Recipient: UK Customer
+  Phone Number: whatsapp:447492113014
+  Status: queued
+  Message SID: MMc8d7cd0e053d182079641dbdacb811b2
+  Timestamp: 2025-05-16T18:12:10.835537
+--------------------------------------------------------------------------------
+Message 68:
+  Order ID: UK84281751
+  Recipient: UK Customer
+  Phone Number: whatsapp:447484281751
+  Status: queued
+  Message SID: MM9dc53aa39bb2421c87ae952ed2d37998
+  Timestamp: 2025-05-16T18:12:12.233055
+--------------------------------------------------------------------------------
+Message 69:
+  Order ID: AFFILIATE002
+  Recipient: Duplicate Affiliate
+  Phone Number: whatsapp:61406238719
+  Status: queued
+  Message SID: MMe51b975f8dd16df83d5caa22b22ae677
+  Timestamp: 2025-05-16T18:12:13.612484
+--------------------------------------------------------------------------------
+
+SUMMARY:
+Total unique recipients: 69
+Successful: 69
+Failed: 0
+Time elapsed: 95.68 seconds

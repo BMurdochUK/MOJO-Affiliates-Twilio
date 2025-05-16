@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120">
+  <style>
+    .logo-text { fill: #ffffff; font-family: Arial, sans-serif; font-weight: bold; font-size: 48px; }
+    .logo-droplet { fill: #E60517; }
+    .logo-bubbles { fill: #E60517; }
+    .logo-x { fill: #ffffff; }
+  </style>
+  <g>
+    <!-- MOJO Text -->
+    <text x="100" y="75" class="logo-text">MOJO</text>
+    
+    <!-- Droplet shape -->
+    <path class="logo-droplet" d="M70 40 C70 10, 30 10, 30 40 C30 70, 50 100, 50 100 C50 100, 70 70, 70 40 Z" />
+    
+    <!-- Bubbles -->
+    <circle class="logo-bubbles" cx="65" r="10" cy="30" />
+    <circle class="logo-bubbles" cx="55" r="6" cy="45" />
+    <circle class="logo-bubbles" cx="75" r="12" cy="50" />
+    
+    <!-- X in droplet -->
+    <path class="logo-x" d="M35 80 L65 60 M35 60 L65 80" stroke-width="8" stroke="#ffffff" />
+  </g>
+</svg> 
