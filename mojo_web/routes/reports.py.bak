@@ -311,11 +311,6 @@ def index():
                                         Affiliate Responses <span id="responses-count" class="message-count">0</span>
                                     </button>
                                 </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="undelivered-tab" data-bs-toggle="tab" data-bs-target="#undelivered-messages" type="button" role="tab" aria-controls="undelivered-messages" aria-selected="false">
-                                        Undelivered Messages <span id="undelivered-count" class="message-count">0</span>
-                                    </button>
-                                </li>
                             </ul>
                             
                             <div class="tab-content">
@@ -361,30 +356,6 @@ def index():
                                             <tbody id="inbound-body">
                                                 <tr>
                                                     <td colspan="7" class="text-center">Loading customer responses...</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                                
-                                <!-- Undelivered Messages Tab -->
-                                <div class="tab-pane fade" id="undelivered-messages" role="tabpanel" aria-labelledby="undelivered-tab">
-                                    <div class="table-responsive">
-                                        <table class="table table-striped" id="undelivered-table">
-                                            <thead>
-                                                <tr>
-                                                    <th>Date</th>
-                                                    <th>To</th>
-                                                    <th>Buyer Username</th>
-                                                    <th>Recipient</th>
-                                                    <th>Order ID</th>
-                                                    <th>Message Body</th>
-                                                    <th>Status</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody id="undelivered-body">
-                                                <tr>
-                                                    <td colspan="7" class="text-center">Loading undelivered messages...</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -606,41 +577,6 @@ def index():
                     setTimeout(() => { outboundBody.innerHTML = newHtml; }, 10); // Re-assert content
                     console.log("Rendered outbound table. HTML:", outboundBody.innerHTML.substring(0, 200) + "...");
                 }
-                
-                // Function to populate undelivered messages table
-                function renderUndeliveredTable() {
-                    const undeliveredBody = document.getElementById('undelivered-body');
-                    undeliveredBody.innerHTML = ''; // Clear existing
-                    let newHtml = '';
-                    
-                    // Filter for undelivered messages only
-                    const undeliveredMessages = activeOutboundMessages.filter(msg => msg.status === 'undelivered');
-                    
-                    if (undeliveredMessages.length === 0) {
-                        newHtml = '<tr><td colspan="7" class="text-center">No undelivered messages found for the selected time period.</td></tr>';
-                    } else {
-                        undeliveredMessages.forEach(msg => {
-                            const statusClass = getStatusClass(msg.status);
-                            const date = new Date(msg.date_sent || msg.date_created);
-                            const buyerUsername = msg.buyer_username ? 
-                                `<a href="https://www.tiktok.com/@${msg.buyer_username}" target="_blank">@${msg.buyer_username}</a>` : '-';
-                            newHtml += `
-                                <tr>
-                                    <td>${date.toLocaleString()}</td>
-                                    <td>${msg.to}</td>
-                                    <td>${buyerUsername}</td>
-                                    <td>${msg.recipient || '-'}</td>
-                                    <td>${msg.order_id || '-'}</td>
-                                    <td>${msg.body.substring(0, 50)}${msg.body.length > 50 ? '...' : ''}</td>
-                                    <td class="${statusClass}">${msg.status}</td>
-                                </tr>
-                            `;
-                        });
-                    }
-                    undeliveredBody.innerHTML = newHtml;
-                    setTimeout(() => { undeliveredBody.innerHTML = newHtml; }, 10); // Re-assert content
-                    console.log("Rendered undelivered table with", undeliveredMessages.length, "messages");
-                }
 
                 // Function to populate inbound messages table
                 function renderInboundTable() {
@@ -738,13 +674,9 @@ def index():
                             activeInboundMessages = data.inbound_messages.filter(msg => msg.direction === 'inbound');
                             console.log("Filtered inbound messages (activeInboundMessages):", activeInboundMessages);
 
-                            // Count and filter undelivered messages
-                            const undeliveredMessages = activeOutboundMessages.filter(msg => msg.status === 'undelivered');
-                            
                             // Update counts in tabs
                             document.getElementById('outbound-count').textContent = activeOutboundMessages.length;
                             document.getElementById('responses-count').textContent = activeInboundMessages.length;
-                            document.getElementById('undelivered-count').textContent = undeliveredMessages.length;
 
                             // Determine which tab is currently active and render its table
                             // This is important for the initial load and auto-refresh
@@ -752,8 +684,6 @@ def index():
                                 renderOutboundTable();
                             } else if (document.getElementById('inbound-tab').classList.contains('active')) {
                                 renderInboundTable();
-                            } else if (document.getElementById('undelivered-tab').classList.contains('active')) {
-                                renderUndeliveredTable();
                             }
 
                         })
@@ -822,10 +752,8 @@ def index():
                 // --- NEW DIAGNOSTIC CODE FOR TABS ---
                 const outboundTabButton = document.getElementById('outbound-tab');
                 const inboundTabButton = document.getElementById('inbound-tab');
-                const undeliveredTabButton = document.getElementById('undelivered-tab');
                 const outboundPane = document.getElementById('outbound-messages');
                 const inboundPane = document.getElementById('inbound-messages');
-                const undeliveredPane = document.getElementById('undelivered-messages');
 
                 if (outboundTabButton && outboundPane) {
                     outboundTabButton.addEventListener('show.bs.tab', function (event) {
@@ -835,11 +763,9 @@ def index():
                         console.warn('Event: shown.bs.tab for Outbound. Target:', event.target.id, 'RelatedTarget:', event.relatedTarget ? event.relatedTarget.id : 'null');
                         outboundPane.classList.add('active', 'show');
                         if (inboundPane) inboundPane.classList.remove('active', 'show');
-                        if (undeliveredPane) undeliveredPane.classList.remove('active', 'show');
                         renderOutboundTable();
                         console.log('Outbound Pane classes after shown:', outboundPane.className);
                         if (inboundPane) console.log('Inbound Pane classes after Outbound shown:', inboundPane.className);
-                        if (undeliveredPane) console.log('Undelivered Pane classes after Outbound shown:', undeliveredPane.className);
                     });
                 }
 
@@ -849,17 +775,8 @@ def index():
                     });
                     inboundTabButton.addEventListener('shown.bs.tab', function (event) {
                         console.warn('Event: shown.bs.tab for Inbound. Target:', event.target.id, 'RelatedTarget:', event.relatedTarget ? event.relatedTarget.id : 'null');
-                        
-                        // Remove any undelivered force container before switching to inbound tab
-                        const existingUndeliveredContainer = document.getElementById('force-undelivered-container');
-                        if (existingUndeliveredContainer) {
-                            existingUndeliveredContainer.remove();
-                            console.log("Removed undelivered force container when switching to inbound tab");
-                        }
-                        
                         inboundPane.classList.add('active', 'show');
                         if (outboundPane) outboundPane.classList.remove('active', 'show');
-                        if (undeliveredPane) undeliveredPane.classList.remove('active', 'show');
                         renderInboundTable();
                         
                         // BRUTE FORCE APPROACH - Create a completely new element to display inbound messages
@@ -961,116 +878,6 @@ def index():
                             }
                         });
                     }
-                }
-                
-                // Setup event handlers for undelivered tab
-                if (undeliveredTabButton && undeliveredPane) {
-                    undeliveredTabButton.addEventListener('show.bs.tab', function (event) {
-                        console.warn('Event: show.bs.tab for Undelivered. Target:', event.target.id, 'RelatedTarget:', event.relatedTarget ? event.relatedTarget.id : 'null');
-                    });
-                    
-                    undeliveredTabButton.addEventListener('shown.bs.tab', function (event) {
-                        console.warn('Event: shown.bs.tab for Undelivered. Target:', event.target.id, 'RelatedTarget:', event.relatedTarget ? event.relatedTarget.id : 'null');
-                        
-                        // First, remove any inbound force container that might be present
-                        const existingInboundContainer = document.getElementById('force-inbound-container');
-                        if (existingInboundContainer) {
-                            existingInboundContainer.remove();
-                            console.log("Removed inbound force container when switching to undelivered tab");
-                        }
-                        
-                        // Then set proper classes and render table
-                        undeliveredPane.classList.add('active', 'show');
-                        if (outboundPane) outboundPane.classList.remove('active', 'show');
-                        if (inboundPane) inboundPane.classList.remove('active', 'show');
-                        renderUndeliveredTable();
-                        
-                        // Create a dedicated force display for undelivered messages
-                        const forceUndeliveredContainer = document.createElement('div');
-                        forceUndeliveredContainer.id = 'force-undelivered-container';
-                        forceUndeliveredContainer.style.cssText = `
-                            position: relative;
-                            top: 0;
-                            left: 0;
-                            width: 100%;
-                            background-color: white;
-                            z-index: 1000;
-                            padding: 20px;
-                            border: 2px solid #E60517;
-                            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-                            margin-top: 10px;
-                        `;
-                        
-                        // Filter for undelivered messages only
-                        const undeliveredMessages = activeOutboundMessages.filter(msg => msg.status === 'undelivered');
-                        
-                        // Create a table with simple styling for undelivered messages
-                        let tableHTML = `
-                            <h4>Undelivered Messages (Force Display)</h4>
-                            <table style="width:100%; border-collapse: collapse; margin-top: 10px;">
-                                <thead>
-                                    <tr style="background-color: #f2f2f2;">
-                                        <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Date</th>
-                                        <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">To</th>
-                                        <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Buyer Username</th>
-                                        <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Message</th>
-                                        <th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Status</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                        `;
-                        
-                        // Add each undelivered message to the table
-                        if (undeliveredMessages && undeliveredMessages.length > 0) {
-                            undeliveredMessages.forEach(msg => {
-                                const date = new Date(msg.date_sent || msg.date_created);
-                                const buyerUsername = msg.buyer_username ? 
-                                    `<a href="https://www.tiktok.com/@${msg.buyer_username}" target="_blank" style="color: #E60517;">@${msg.buyer_username}</a>` : '-';
-                                
-                                tableHTML += `
-                                    <tr style="border-bottom: 1px solid #ddd;">
-                                        <td style="padding: 8px; text-align: left; border: 1px solid #ddd;">${date.toLocaleString()}</td>
-                                        <td style="padding: 8px; text-align: left; border: 1px solid #ddd;">${msg.to}</td>
-                                        <td style="padding: 8px; text-align: left; border: 1px solid #ddd;">${buyerUsername}</td>
-                                        <td style="padding: 8px; text-align: left; border: 1px solid #ddd;">${msg.body.substring(0, 50)}${msg.body.length > 50 ? '...' : ''}</td>
-                                        <td style="padding: 8px; text-align: left; border: 1px solid #ddd;">${msg.status}</td>
-                                    </tr>
-                                `;
-                            });
-                        } else {
-                            tableHTML += `
-                                <tr>
-                                    <td colspan="5" style="padding: 8px; text-align: center; border: 1px solid #ddd;">No undelivered messages found</td>
-                                </tr>
-                            `;
-                        }
-                        
-                        tableHTML += `
-                                </tbody>
-                            </table>
-                        `;
-                        
-                        forceUndeliveredContainer.innerHTML = tableHTML;
-                        
-                        // Remove any existing undelivered force container
-                        const existingUndeliveredContainer = document.getElementById('force-undelivered-container');
-                        if (existingUndeliveredContainer) {
-                            existingUndeliveredContainer.remove();
-                        }
-                        
-                        // Insert the new container right after the tab content
-                        const tabContent = document.getElementById('delivery');
-                        if (tabContent) {
-                            tabContent.appendChild(forceUndeliveredContainer);
-                            console.log("Force display container added for undelivered messages");
-                        } else {
-                            undeliveredPane.appendChild(forceUndeliveredContainer);
-                        }
-                        
-                        console.log('Undelivered Pane classes after shown:', undeliveredPane.className);
-                        if (outboundPane) console.log('Outbound Pane classes after Undelivered shown:', outboundPane.className);
-                        if (inboundPane) console.log('Inbound Pane classes after Undelivered shown:', inboundPane.className);
-                    });
                 }
                 // --- END NEW DIAGNOSTIC CODE ---
             });
